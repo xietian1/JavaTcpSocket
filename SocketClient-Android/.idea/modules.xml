@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SocketClient-Android.iml" filepath="$PROJECT_DIR$/.idea/modules/SocketClient-Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SocketClientAndroid/SocketClient-Android.SocketClientAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/SocketClientAndroid/SocketClient-Android.SocketClientAndroid.iml" />
+    </modules>
+  </component>
+</project>
