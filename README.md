@@ -1,4 +1,11 @@
-# JavaTcpSocket
+# JavaTcpSocket based on https://github.com/jzj1993/JavaTcpSocket
 
-《基于Java的TCP Socket通信（计算机端/Android手机端）》
-http://www.paincker.com/java-tcp-socket
+SocketClient-Android:
+Tested on Pixel 5.
+Will send 10KB string to the server after connecting
+
+SocketServer:
+Tested on Eclipse
+Will only respond after receving 10KB string.
+
+
