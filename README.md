@@ -1,4 +1,4 @@
-# JavaTcpSocket based on https://github.com/jzj1993/JavaTcpSocket
+# JavaTcpSocket
 
 SocketClient-Android:
 Tested on Pixel 5.
@@ -9,3 +9,4 @@ Tested on Eclipse
 Will only respond after receving 10KB string.
 
 
+Forker from https://github.com/jzj1993/JavaTcpSocket
