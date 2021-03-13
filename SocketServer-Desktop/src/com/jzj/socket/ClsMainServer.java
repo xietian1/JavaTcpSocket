@@ -21,12 +21,12 @@ public class ClsMainServer {
 			@Override
 			public void onReceive(SocketTransceiver client, String s) {
 				printInfo(client, "Send Data: " + s);
-				buffer += s;
-				if (buffer.length() >= 10000) {
-					client.send(buffer);
-					buffer = "";
-				}
-				//client.send(s);
+//				buffer += s;
+//				if (buffer.length() >= 10000) {
+//					client.send(buffer);
+//					buffer = "";
+//				}
+				client.send(s);
 			}
 
 			@Override

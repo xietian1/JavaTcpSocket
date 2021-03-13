@@ -147,7 +147,10 @@ public class MainActivity extends Activity implements OnClickListener {
 						tosend += data_100;
 					}
 					Log.i("Tosend:", tosend);
-					client.getTransceiver().send(tosend);
+					if(client.getTransceiver() != null){
+						client.getTransceiver().send(tosend);
+					}
+
 				}
 			}, 200);
 		}
